@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+#container{
+    width:850px;
+    margin: 0px auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+#ust_grid{
+    min-width:800px;
+    height: 200px;
+    margin: 0px auto;
+    border:1px solid black;
+    border-radius:20px;
+    background-color: #99D0F3;
+}
+#islem{
+    min-width:600px;
+    height: 60px;
+    
+    background-color: #4D9E90;
+    border-radius: 20px 20px 0px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+}
+#question{
+    margin:0px auto;
+    
+    min-width:320px;
+    line-height: 60px;  
+}
+#options{
+    margin:45px auto;
+    min-width: 400px;
+    height: 50px;
+    
+    
+    
+}
+#options> button{
+    
+    
+    float: left;
+    min-width:209.5px;
+    background-color:#F4F4D3;
+    margin-left:2px;
+    border:none;
+    text-align: center;
+    height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+     
+    color:#FFA600;
+    border-radius:5px;  
+    cursor: pointer;
+   
+
+}
+#options> button:hover{
+    text-decoration: underline;
+}
+#math-img{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    z-index: -11;
+    opacity: 0.8;
+    position: fixed;
+}
